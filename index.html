@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>LYDIA Staking Portal</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" class="logo" alt="Lydia Logo"/>
+        <h1>LYDIA STAKING PORTAL</h1>
+        <button id="connectButton">Connect Wallet</button>
+        <div id="walletInfo" style="display: none;">
+            <p>Wallet Address: <span id="walletAddress"></span></p>
+            <p>Staked: <span id="stakedAmount">0</span> LP</p>
+            <p>Earned: <span id="earned">0</span> LYDIA</p>
+            <button id="stakeButton">Stake</button>
+            <button id="claimButton">Claim Rewards</button>
+            <button id="withdrawButton">Withdraw</button>
+        </div>
+    </div>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
