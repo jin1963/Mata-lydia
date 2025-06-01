@@ -1,0 +1,59 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #200038;
+  color: white;
+  text-align: center;
+}
+.container {
+  padding: 40px 20px;
+}
+.logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+.wallet-box {
+  border: 2px solid gold;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 300px;
+  background-color: #2a0048;
+}
+.wallet-box p {
+  margin: 10px 0;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+}
+.btn-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#connectWallet {
+  background-color: #d3a700;
+  color: #000;
+  margin-top: 20px;
+}
+#stakeButton {
+  background-color: #4eaaff;
+}
+#claimButton {
+  background-color: #b478ff;
+}
+#withdrawButton {
+  background-color: #ff6464;
+}
