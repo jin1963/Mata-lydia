@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LYDIA Staking Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Lydia Logo" class="logo" />
+    <h1>LYDIA STAKING PORTAL</h1>
+    <div class="wallet-box">
+      <p><strong>Wallet</strong><br /><span id="walletAddress">-</span></p>
+      <p>Staked: <span id="stakedAmount">0</span></p>
+      <p>Earned: <span id="earnedAmount">0 LYDIA</span></p>
+      <input type="number" id="stakeInput" placeholder="Amount to stake" />
+      <div class="btn-row">
+        <button id="stakeButton">Stake</button>
+        <button id="claimButton">Claim Rewards</button>
+        <button id="withdrawButton">Withdraw</button>
+      </div>
+    </div>
+    <button id="connectWallet">Connect Wallet</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.8.2/dist/web3.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
