@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom right, #4B0082, #FFD700);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 150px;
+    height: auto;
+}
+input[type="number"], select {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
